@@ -8,130 +8,254 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Use SeGPS to secure the applications you use, build, & manage</title>
+  <title>SVAF - أمن البرمجيات</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
-  <!-- Custom styles for this template -->
-  <link href="css/small-business.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="#">Semantic Global Problems Scanner (SeGPS)</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">SVAF: أمن البرمجيات</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+       <!--   <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">!من نحن</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">خدماتنا</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">منتجاتنا</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">للتواصل</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Page Content -->
-  <div class="container">
-
-    <!-- Heading Row -->
-    <div class="row align-items-center my-5">
-      <div class="col-lg-7">
-        <img class="img-fluid rounded mb-4 mb-lg-0" src="img\logo.jpg" alt="">
-      </div>
-      <!-- /.col-lg-8 -->
-      <div class="col-lg-5">
-        <h1 class="font-weight-light">SeGPS</h1>
-        <p>SeGPS takes advantage of Semantic Web technologies to establish traceability links between vulnerability repositories and other software repositories using a unified knowledge representation. SE-GPS helps eliminating existing knowledge silos and further allows for information security to become an integrated part of software development processes.</p>
-        <a class="btn btn-primary" href="#">Call for Free Trail!</a>
-      </div>
-      <!-- /.col-md-4 -->
-    </div>
-    <!-- /.row -->
-
-    <!-- Call to Action Well -->
-    <div class="card text-white bg-secondary my-5 py-4 text-center">
-      <div class="card-body">
-        <p class="text-white m-0"><h5>Fast and easy deployment to your development pipeline, instant visibility into your open-source consumption. Define policies and automate actions. Take back control of your software supply chain.</h5></p>
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">SV-AF</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">أس في أف: شركة سعودية تقنية متخصصه في أمن البرمجيات وبناء الأنظمه البرمجيه والمواقع الإلكترونية والتطبيقات التفاعلية إنشاء البنية التحتية لهندسة البرمجيات, وإدارتها بطريقة مهنية ترعى فيها الجوانب الأمنية والخدمية وتقديم الدراسات والإستشارات التقنية في مجال هندسة البرمجيات وأمن المعلومات وتحليل النظم</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">!تعرف علينا</a>
+        </div>
       </div>
     </div>
+  </header>
 
-    <!-- Content Row -->
-    <div class="row">
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-		    <center><img class="img-card-body" src="img\teams.png"/></center>
-            <h2 class="card-title">Application Security Teams</h2>
-            <p class="card-text">SeGPS gives security teams visibility into the vulnerabilities in the open-source code and allows them to define and control organizational security policies. When issues are found you can collaborate with developers and fix them fast.</p>
+  <!-- About Section -->
+  <!-- <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">!لدينا ماتحتاجه</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Services Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-center mt-0">خدماتنا</h2>
+      <hr class="divider my-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+            <h3 class="h4 mb-2">بناء البرامج</h3>
+            <p class="text-muted mb-0">انشاء البرامج المكتبية والويب وتطبيقات الجوال بطريقة آمنه مع خدمة تتبع المشاكل الأمنية وإصلاحها</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">More Info</a>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+            <h3 class="h4 mb-2">فحص الأكواد</h3>
+            <p class="text-muted mb-0"> اكتشاف الثغرات الأمنية في البرامج الخاصه بالعميل وطريقة اصلاحها مع إمكانية فحص الكود الخاص بالعميل بشكل امن عن طريق خدمات الكلاود وكذلك امكانية توفير ادوات لإكتشاف الثغرات الأمنية في البرامج الخاصه بالعميل بشكل اتوماتيكي واصلاحها بشكل سريع</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+            <h3 class="h4 mb-2">تصميم المواقع</h3>
+            <p class="text-muted mb-0">بناء تطبيقات الويب والمواقع الإلكترونية المصاحبه لها بإستخدام اساليب برمجية أمنه وتوفير التطبيقات والأدوات اللازمه للحفاض على أمنية وخصوصية المشاريع</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+            <h3 class="h4 mb-2">الإستشارات الأمنية</h3>
+            <p class="text-muted mb-0">نخبة من المستشارين في أمن المعلومات وهندسة البرمجيات لتقديم الإستشارات والحلول الأمنية للعميل</p>
           </div>
         </div>
       </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-		    <center> <img class="img-card-body" src="img\developer.png"/> </center>
-            <h2 class="card-title">Developers</h2>
-            <p class="card-text">SeGPS is designed for developers and DevOps teams. We integrate directly with your existing tools and workflows without getting in your way. Accurate and complete analysis means you only get real and actionable insights.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">More Info</a>
-          </div>
-        </div>
-      </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-			<center> <img class="img-card-body" src="img\security.png"/> </center>
-            <h2 class="card-title">Chief Security Officers</h2>
-            <p class="card-text">SeGPS supports security leaders by making sure they have real-time information about the risks associated with third-party open-source code, what issues are present in their organizations and what is being done to fix them.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">More Info</a>
-          </div>
-        </div>
-      </div>
-      <!-- /.col-md-4 -->
-
     </div>
-    <!-- /.row -->
+  </section>
 
-  </div>
-  <!-- /.container -->
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Tools
+              </div>
+              <div class="project-name">
+                SE-GPS: Semantic Global Problems Scanner
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Consultants
+              </div>
+              <div class="project-name">
+                Coming soon!
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Web Applications
+              </div>
+              <div class="project-name">
+                Coming soon
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Code review
+              </div>
+              <div class="project-name">
+                Coming soon
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Tools
+              </div>
+              <div class="project-name">
+                Coming soon
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+            <div class="portfolio-box-caption p-3">
+              <div class="project-category text-white-50">
+                Tools
+              </div>
+              <div class="project-name">
+                Coming soon
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="page-section bg-dark text-white">
+    <div class="container text-center">
+ <!--     <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a> -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">للتواصل</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-5">يمكنك دائماً التواصل معنا عبر منافذ التواصل المتاحه</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <div>+966 (11) 284-1566</div>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <!-- Make sure to change the email address in anchor text AND the link below! -->
+          <a class="d-block" href="mailto:contact@yourwebsite.com">semantic.svaf@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="bg-light py-5">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; SeGPS 2019</p>
+      <div class="small text-center text-muted">Copyright &copy; 2019 - SV-AF: أمن البرمجيات</div>
     </div>
-    <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
 
 </body>
 
